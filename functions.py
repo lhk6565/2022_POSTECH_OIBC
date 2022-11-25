@@ -2,6 +2,7 @@ import datetime
 from datetime import timedelta
 from time import strptime
 import pandas as pd
+import numpy as np
 
 # reset index
 def reset(data):
@@ -121,3 +122,28 @@ def first_weather(data, id):
     time = time.reset_index()
     data.time = time.time
     return data
+
+# Moving Average
+xbuf = []
+firstRun = True
+def MovAvgFilter_batch(x):
+    global n, xbuf, firstRun
+    if firstRun:
+        n = 2
+        xbuf = x * np.ones(n)
+        firstRun = False
+    else:
+        for i in range(n-1):
+            xbuf[i] = xbuf[i+1]
+        xbuf[n-1] = x
+    avg = np.sum(xbuf) / n
+    return avg
+
+# make year to hour
+def ymdh(df):
+    df['_datetime'] = pd.to_datetime(df['time'])
+    df['year'] = df['_datetime'].apply(lambda x: x.year)
+    df['month'] = df['_datetime'].apply(lambda x: x.month)
+    df['day'] = df['_datetime'].apply(lambda x: x.day)
+    df['hour'] = df['_datetime'].apply(lambda x: x.hour)
+    df.drop(['_datetime'],axis=1, inplace=True)
