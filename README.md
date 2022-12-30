@@ -20,4 +20,4 @@
 4. 전날 10시, 17시 예측된 발전량과 실제 발전량의 차이를 비교하여 평가
 5. 구간 예측의 정확도는 실제 발전량이 구간 내에 포함되면서 예측 범위가 좁고 구간 평균이 실제 발전량과 가까울수록 정확도가 높은 것으로 판별
 6. 평가 산식은 아래와 같음
-<center> $\displaystyle\sum_{d}\displaystyle\sum_{h=1}^{24}\displaystyle\sum_{n\in{10,17}$ </center>
+<center> $\displaystyle\sum_{d}\displaystyle\sum_{h=1}^{24}\displaystyle\sum_{n\in{10,17}}$ </center>
