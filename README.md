@@ -1,7 +1,8 @@
 # 2022_POSTECH_OIBC
 
-![poster](poster.jfif)
-
+<p align='center'>
+    <img src='poster.jfif' width='250' height='350'>
+</p>
 
 [2022 POSTECH OIBC CHALLENGE 태양광 발전량 예측 경진대회](https://o.solarkim.com/cmpt2022)에서 장려상 (7등 / 63팀)을 받은 Duck Cureve팀의 발표 자료입니다.
 
