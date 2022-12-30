@@ -1,10 +1,9 @@
 # 2022_POSTECH_OIBC
-
-![poster](poster.jfif)
-
 <p align='center'>
-[2022 POSTECH OIBC CHALLENGE 태양광 발전량 예측 경진대회](https://o.solarkim.com/cmpt2022)에서 장려상 (7등 / 63팀)을 받은 Duck Cureve팀의 발표 자료입니다.
+![poster](poster.jfif)
 </p>
+
+[2022 POSTECH OIBC CHALLENGE 태양광 발전량 예측 경진대회](https://o.solarkim.com/cmpt2022)에서 장려상 (7등 / 63팀)을 받은 Duck Cureve팀의 발표 자료입니다.
 
 ## 대회 소개
 - 기술로 전력 시장을 개방하는 H Energy와 POSTECH 오픈이노베이션 빅데이터 센터(OIBC), 산업 인공지능 프로그램이 함께 미래 전력 시장을 이끌어갈 인재를 발굴, 지원하기 위해 대학 및 대학원생 대상으로 제4회 OIBC CHALLENGE를 주최
