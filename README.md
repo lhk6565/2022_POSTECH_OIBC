@@ -40,11 +40,13 @@ $I\left\lbrace A \right\rbrace$ : A가 참이면 1, 거짓이면 0인 지시함�
 ## 코드 실행
 - `Process` 폴더 내 필요한 `.ipynb` 파일을 실행하면 됩니다. `Data Processing.ipynb` 파일은 api로 가져온 데이터를 전처리 하기 위한 파일이며 해당 부분은 대회 종료 후 코드를 삭제하여 일부분만 정리되어 있습니다.
 - 디렉토리 구성 :
+~~~
     - Data Processing.ipynb         # 데이터 전처리
     - EDA.ipynb                     # EDA 및 시각화
     - ML.ipynb                      # 모델링
     - api_sample.py                 # 데이터 취득 및 입찰 API
     - functions.py                  # 사용자 정의 모듈
+~~~
 
 ## 느낀점
 이번 대회에서 사전 참여 기간을 통해 모델을 만들고 error값을 확인해 봤어야 했는데 이 기간을 활용 못 하고 대회 전날 부터 밤을 새워 전처리 부터 모델링까지 해야 했어서 매우 아쉽다.(이래서 1~2일차에 error값이 높게 나왔다...)<br>
