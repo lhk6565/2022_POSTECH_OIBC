@@ -1,5 +1,5 @@
 # 2022_POSTECH_OIBC
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 <p align='center'>
     <img src='poster.jfif' width='250' height='350'>
 </p>
@@ -20,4 +20,5 @@
 4. 전날 10시, 17시 예측된 발전량과 실제 발전량의 차이를 비교하여 평가
 5. 구간 예측의 정확도는 실제 발전량이 구간 내에 포함되면서 예측 범위가 좁고 구간 평균이 실제 발전량과 가까울수록 정확도가 높은 것으로 판별
 6. 평가 산식은 아래와 같음
-$$ \sum_{d} \sum_{h=1}^{24} \sum_{n\in{10,17}} \left( 0.45 \frac{\left|\frac{U_{d,h}^n + L_{d,h}^n}{2} - G_{d,h}\right|}{C} + 0.45 \frac{U_{d,h}^n - L_{d,h}^n}{C} + 0.1 \frac{G_{d,h}I \left\{ L_{d,h}>G_{d,h} \;or\; U_{d,h}<G_{d,h} \right\}}{C} \right) $$
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
+$$ \sum_{d} \sum_{h=1}^{24} \sum_{n\in{10,17}} \left( 0.45 \frac{\left|\frac{U_{d,h}^n + L_{d,h}^n}{2} - G_{d,h}\right|}{C} + 0.45 \frac{U_{d,h}^n - L_{d,h}^n}{C} + 0.1 \frac{G_{d,h}I \left\{ L_{d,h}>G_{d,h} \;or\; U_{d,h}<G_{d,h} \right\}}{C} \right) $$</script>
