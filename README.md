@@ -1,5 +1,5 @@
 # 2022_POSTECH_OIBC
-
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 <p align='center'>
     <img src='poster.jfif' width='250' height='350'>
 </p>
