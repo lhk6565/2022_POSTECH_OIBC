@@ -21,4 +21,5 @@
 5. 구간 예측의 정확도는 실제 발전량이 구간 내에 포함되면서 예측 범위가 좁고 구간 평균이 실제 발전량과 가까울수록 정확도가 높은 것으로 판별
 6. 평가 산식은 아래와 같음
 $$\sum_d\sum_{h=1}^{24}\sum_{n\in{10,17}} \left( 0.45 \frac{\left\vert \frac{U_{d,h}^n+L_{d,h}^n}{2}-G_{d,h} \right\vert}{C} + 0.45 \frac{ \left( U_{d,h}^n-L_{d,h}^n \right)}{C} + 0.1 \frac{G_{d,h}I \left\lbrace L_{d,h} > G_{d,h}\ or\ U_{d,h} < G_{d,h} \right\rbrace}{C} \right)$$
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+$C$ : 태양광 발전소 용량 (MW) <br>
+$G_{d,h}$ : 발전소 d일의 h 시간대 발전량 예측 구간의 하계 (Lower Bound)값
