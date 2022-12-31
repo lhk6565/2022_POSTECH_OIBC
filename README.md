@@ -22,4 +22,7 @@
 6. 평가 산식은 아래와 같음
 $$\sum_d\sum_{h=1}^{24}\sum_{n\in{10,17}} \left( 0.45 \frac{\left\vert \frac{U_{d,h}^n+L_{d,h}^n}{2}-G_{d,h} \right\vert}{C} + 0.45 \frac{ \left( U_{d,h}^n-L_{d,h}^n \right)}{C} + 0.1 \frac{G_{d,h}I \left\lbrace L_{d,h} > G_{d,h}\ or\ U_{d,h} < G_{d,h} \right\rbrace}{C} \right)$$
 $C$ : 태양광 발전소 용량 (MW) <br>
-$G_{d,h}$ : 발전소 d일의 h 시간대 발전량 예측 구간의 하계 (Lower Bound)값
+$G_{d,h}$ : 발전소 d일의 h 시간대 실제 발전량
+$L_{d,h}^n$ : 전날 n시에 입력한 d일의 h 시간대 발전량 예측 구간의 하계 (Lower Bound) 값
+$U_{d,h}^n$ : 전날 n시에 입력한 d일의 h 시간대 발전량 예측 구간의 상계 (Upper Bound) 값 $\left( U_{d,h}^n > L_{d,h}^n \right)$
+$I\left\{ A \right\}$ : A가 참이면 1, 거짓이면 0인 지시함수 (Indicator Function)
