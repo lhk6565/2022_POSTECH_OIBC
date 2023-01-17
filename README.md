@@ -5,9 +5,9 @@
 </p>
 
 [2022 POSTECH OIBC CHALLENGE 태양광 발전량 예측 경진대회](https://o.solarkim.com/cmpt2022)에서 장려상:trophy: (7등 / 63팀)을 받은 Duck Cureve팀의 발표 자료입니다.
-- 이형권 (IT경영) [:github:](https://github.com/lhk6565)
+- 이형권 (IT경영) ![:github:](https://github.com/lhk6565)
 - 김태연 (IT경영)
-- 장성호 (산업경영) [:github:](https://github.com/Jjineeq)
+- 장성호 (산업경영) ![:github:](https://github.com/Jjineeq)
 - 김현진 (에너지전기공학)
 
 ## 대회 소개
